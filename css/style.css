@@ -1,0 +1,23 @@
+ *{ margin:0; padding:0px; box-sizing:border-box; } 
+ /* simple selector */
+ h1 {color:red;}
+ 
+ 
+ 
+ /* descendant selector */
+ div p{color:green;}
+ 
+ /* child selector */
+ div>p{font-size:20px;}
+
+/* adjacent sibling */
+div+p,#para{color:blue}
+
+/* general sibling */
+div~p{color:yellow}
+
+.content{color:gray}
+
+#name{background-color:yellow}
+
+.cont{background-color:gray;}
